@@ -1,12 +1,5 @@
 # networkattacks
-This python scripts contain two network attack DHCP Starvation and Syn Flood
-
-  | ___ \          | |             |  \/  |(_)     | |                
-  | |_/ /_   _   __| | _ __  __ _  | .  . | _  ___ | |__   _ __  __ _ 
-  |    /| | | | / _` || '__|/ _` | | |\/| || |/ __|| '_ \ | '__|/ _` |
-  | |\ \| |_| || (_| || |  | (_| | | |  | || |\__ \| | | || |  | (_| |
-  \_| \_|\__,_| \__,_||_|   \__,_| \_|  |_/|_||___/|_| |_||_|   \__,_|
-                                                                   
+This python scripts contain two network attack DHCP Starvation and Syn Flood                                                                
 
 ## What Is the DHCP Process?
 A Dynamic Host Configuration Protocol server is responsible for issuing IP addresses to devices on its network. This is done through a series of packet exchanges between individual DHCP clients and DHCP servers. To understand how a DHCP starvation attack works, we should first understand the DHCP interaction fully.
@@ -39,3 +32,9 @@ SYN flood attacks work by exploiting the handshake process of a TCP connection. 
 1) First, the client sends a SYN packet to the server in order to initiate the connection.
 2) The server then responds to that initial packet with a SYN/ACK packet, in order to acknowledge the communication.
 3) Finally, the client returns an ACK packet to acknowledge the receipt of the packet from the server. After completing this sequence of packet sending and receiving, the TCP connection is open and able to send and receive data.
+
+  | ___ \          | |             |  \/  |(_)     | |                
+  | |_/ /_   _   __| | _ __  __ _  | .  . | _  ___ | |__   _ __  __ _ 
+  |    /| | | | / _` || '__|/ _` | | |\/| || |/ __|| '_ \ | '__|/ _` |
+  | |\ \| |_| || (_| || |  | (_| | | |  | || |\__ \| | | || |  | (_| |
+  \_| \_|\__,_| \__,_||_|   \__,_| \_|  |_/|_||___/|_| |_||_|   \__,_|
