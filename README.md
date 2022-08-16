@@ -1,6 +1,15 @@
 # networkattacks
 This python scripts contain two network attack DHCP Starvation and Syn Flood                                                                
 
+Author : Rudra Kumar Mishra
+
+      | ___ \          | |             |  \/  |(_)     | |                
+      | |_/ /_   _   __| | _ __  __ _  | .  . | _  ___ | |__   _ __  __ _ 
+      |    /| | | | / _` || '__|/ _` | | |\/| || |/ __|| '_ \ | '__|/ _` |
+      | |\ \| |_| || (_| || |  | (_| | | |  | || |\__ \| | | || |  | (_| |
+      \_| \_|\__,_| \__,_||_|   \__,_| \_|  |_/|_||___/|_| |_||_|   \__,_|
+Copyright of Rudra Kumar Mishra
+
 ## What Is the DHCP Process?
 A Dynamic Host Configuration Protocol server is responsible for issuing IP addresses to devices on its network. This is done through a series of packet exchanges between individual DHCP clients and DHCP servers. To understand how a DHCP starvation attack works, we should first understand the DHCP interaction fully.
 
