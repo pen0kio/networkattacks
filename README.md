@@ -32,9 +32,3 @@ SYN flood attacks work by exploiting the handshake process of a TCP connection. 
 1) First, the client sends a SYN packet to the server in order to initiate the connection.
 2) The server then responds to that initial packet with a SYN/ACK packet, in order to acknowledge the communication.
 3) Finally, the client returns an ACK packet to acknowledge the receipt of the packet from the server. After completing this sequence of packet sending and receiving, the TCP connection is open and able to send and receive data.
-
-  | ___ \          | |             |  \/  |(_)     | |                
-  | |_/ /_   _   __| | _ __  __ _  | .  . | _  ___ | |__   _ __  __ _ 
-  |    /| | | | / _` || '__|/ _` | | |\/| || |/ __|| '_ \ | '__|/ _` |
-  | |\ \| |_| || (_| || |  | (_| | | |  | || |\__ \| | | || |  | (_| |
-  \_| \_|\__,_| \__,_||_|   \__,_| \_|  |_/|_||___/|_| |_||_|   \__,_|
